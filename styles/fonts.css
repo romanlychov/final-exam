@@ -1,0 +1,35 @@
+/* Regular */
+@font-face {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TT Norms'), 
+        url('../fonts/TTNorms-Regular.woff2') format('woff2'), 
+        url('../fonts/TTNorms-Regular.woff') format('woff'), 
+        url('../fonts/TTNorms-Regular.ttf') format('ttf'), 
+        url('../fonts/TTNorms-Regular.eot') format('eot');
+}
+
+/* Medium */
+@font-face {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 500;
+    src: local('TT Norms'), 
+        url('../fonts/TTNorms-Medium.woff2') format('woff2'), 
+        url('../fonts/TTNorms-Medium.woff') format('woff'), 
+        url('../fonts/TTNorms-Medium.ttf') format('ttf'), 
+        url('../fonts/TTNorms-Medium.eot') format('eot');
+}
+
+/* Bold */
+@font-face {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TT Norms'), 
+        url('../fonts/TTNorms-Bold.woff2') format('woff2'), 
+        url('../fonts/TTNorms-Bold.woff') format('woff'), 
+        url('../fonts/TTNorms-Bold.ttf') format('ttf'), 
+        url('../fonts/TTNorms-Bold.eot') format('eot');
+}

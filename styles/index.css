@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'TT Norms';
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+}
+
+.top {
+    background: url('../images/Symbol-Long-leg.svg'), linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-arrow-down-div {
+    height: 200px;
+    background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+}
+
+.btn-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.middle {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+
+.poslidovni {
+    margin: 0;
+}
