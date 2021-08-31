@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.css">
     <link rel="stylesheet" href="styles/index.css">
 
     <title>Hlegals</title>
@@ -15,25 +17,25 @@
 
 <body>
 
-    <div class="top">
+    <div class="main-top">
         <header>
 
             <div class="topbar">
 
                 <ul class="languages">
-                    <li>УК</li>
-                    <li>РУ</li>
-                    <li>EN</li>
+                    <li class="languages__item languages__item_active">УК</li>
+                    <li class="languages__item">РУ</li>
+                    <li class="languages__item">EN</li>
                 </ul>
 
-                <a href="tel:+380503901595">+38 (050) 390 15 95</a>
+                <a class="phone-number" href="tel:+380503901595">+38 (050) 390 15 95</a>
 
             </div>
 
             <div class="header-mobile">
 
-                <img src="images/Logo Min.svg" alt="Hlegals">
-                <button>
+                <img class="logo-mobile" src="images/Logo Min.svg" alt="Hlegals">
+                <button class="hamburger">
                     <img src="images/Hamburger.svg" alt="Hamburger">
                 </button>
 
@@ -41,7 +43,7 @@
 
         </header>
 
-        <h1>системний адміністратор правових рішень</h1>
+        <h1 class="main-title">системний адміністратор правових рішень</h1>
 
         <div class="btn-arrow-down-div">
             <button class="btn-arrow">
@@ -51,58 +53,58 @@
 
     </div>
 
-    <div class="middle">
+    <div class="main-middle">
 
-        <section>
+        <section class="section-of-carousel owl-carousel owl-theme">
 
-            <div>
-                <h2 class="poslidovni">Послідовні</h2>
-                <h3>Перевертаємо уявлення про юридичні послуги</h3>
-                <p>Консолідуючи багаторічний досвід і практику,
+            <div class="main-middle__item item">
+                <h2 class="main-middle__title">ПОСЛІДОВНІ</h2>
+                <h3 class="main-middle__subtitle">Перевертаємо уявлення про юридичні послуги</h3>
+                <p class="main-middle__description">Консолідуючи багаторічний досвід і практику,
                     юристи компанії супроводжують складні проекти
                     і досягають прийняття ряду важливих для галузі
                     рішень. Багато з них формують практику застосування
                     морського права в Україні.
                 </p>
             </div>
-            <div>
-                <h2>Клієнтоорієнтовані</h2>
-                <h3>Перевертаємо уявлення про юридичні послуги</h3>
-                <p>Консолідуючи багаторічний досвід і практику,
+            <div class="main-middle__item item">
+                <h2 class="main-middle__title">КЛІЄНТООРІЄНТОВАНІ</h2>
+                <h3 class="main-middle__subtitle">Перевертаємо уявлення про юридичні послуги</h3>
+                <p class="main-middle__description">Консолідуючи багаторічний досвід і практику,
                     юристи компанії супроводжують складні проекти
                     і досягають прийняття ряду важливих для галузі
                     рішень. Багато з них формують практику застосування
                     морського права в Україні.
                 </p>
             </div>
-            <div>
-                <h2>Інноваційні</h2>
-                <h3>Перевертаємо уявлення про юридичні послуги</h3>
-                <p>Консолідуючи багаторічний досвід і практику,
+            <div class="main-middle__item item">
+                <h2 class="main-middle__title">ІННОВАЦІЙНІ</h2>
+                <h3 class="main-middle__subtitle">Перевертаємо уявлення про юридичні послуги</h3>
+                <p class="main-middle__description">Консолідуючи багаторічний досвід і практику,
                     юристи компанії супроводжують складні проекти
                     і досягають прийняття ряду важливих для галузі
                     рішень. Багато з них формують практику застосування
                     морського права в Україні.
                 </p>
             </div>
-            <div>
-                <h2>Бізнес-орієнтовані юристи</h2>
-                <h3>Перевертаємо уявлення про юридичні послуги</h3>
-                <p>Консолідуючи багаторічний досвід і практику,
+            <div class="main-middle__item item">
+                <h2 class="main-middle__title">БІЗНЕС-ОРІЄНТОВАНІ ЮРИСТИ</h2>
+                <h3 class="main-middle__subtitle">Перевертаємо уявлення про юридичні послуги</h3>
+                <p class="main-middle__description">Консолідуючи багаторічний досвід і практику,
                     юристи компанії супроводжують складні проекти
                     і досягають прийняття ряду важливих для галузі
                     рішень. Багато з них формують практику застосування
                     морського права в Україні.
                 </p>
             </div>
-    
+               
         </section>
     
-        <a href="#">послуги ></a>
+        <a class="link-services" href="#">ПОСЛУГИ <img src="images/arrow-right.svg" alt="arrow-right"></a>
     
-        <section>
+        <section class="what-we-can-do">
     
-            <h2>Що ми вміємо робити краще за інших?</h2>
+            <h2 class="what-we-can-do__title">Що ми вміємо робити краще за інших?</h2>
     
             <div>
                 <img src="" alt="">
@@ -171,8 +173,9 @@
 
     </div>
 
-    
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script src="owl-carousel/script.js"></script>
 </body>
 
 </html>

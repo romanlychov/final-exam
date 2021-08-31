@@ -5,22 +5,101 @@
 body {
     margin: 0;
     font-family: 'TT Norms';
-    font-weight: 500;
 }
 
-ul {
-    margin: 0;
-}
-
-.top {
+.main-top {
     background: url('../images/Symbol-Long-leg.svg'), linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: calc(50% + 11px) 200px, 0 0;
+}
+
+.topbar {
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.languages {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.languages__item {
+    margin-right: 8px;
+    font-size: 12px;
+    color: #B3B3BA;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.languages__item:last-child {
+    margin-right: 0;
+}
+
+.languages__item_active {
+    width: 29px;
+    height: 24px;
+    color: #FFFFFF;
+    background-color: #F0145A;
+    border-radius: 8px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.phone-number {
+    color: #B3B3BA;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header-mobile {
+    margin: 0 12px 0 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-mobile {
+    width: 78px;
+    height: 31px;
+}
+
+.hamburger {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.main-title {
+    max-width: 530px;
+    font-size: 38px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 138px 0 63px 0;
+    height: 336px;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .btn-arrow-down-div {
     height: 200px;
     background: linear-gradient(180deg, rgba(50, 50, 100, 0) 16.67%, #323264 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 .btn-arrow {
@@ -36,10 +115,63 @@ ul {
     margin: 0;
 }
 
-.middle {
+.main-middle {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    padding-top: 40px;
 }
 
-.poslidovni {
-    margin: 0;
+.section-of-carousel {
+    margin-bottom: 45px;
+}
+
+.main-middle__item {
+    margin: 0 20px;
+}
+
+.main-middle__title {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+}
+
+.main-middle__subtitle {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 0 15px 0;
+}
+
+.main-middle__description {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0 0 20px 0;
+}
+
+.link-services {
+    text-decoration: none;
+    font-size: 14px;
+    color: #B3B3BA;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 3px 20px;
+}
+
+.what-we-can-do {
+    margin: 0 20px 20px 20px;
+}
+
+.what-we-can-do__title {
+    background: linear-gradient(rgba(239, 128, 128, 1), rgba(240, 20, 90, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
 }
