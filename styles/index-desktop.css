@@ -1,0 +1,173 @@
+@media screen and (min-width: 870px) {
+    
+    .topbar {
+        display: none;
+    }
+    
+    .header-mobile {
+        display: none;
+    }
+
+    .header-desktop {
+        margin: 0 60px;
+        display: flex;
+        justify-content: space-between;
+        height: 63px;
+    }
+
+    .lang-and-contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    .languages__item {
+        color: #FFFFFF;
+    }
+
+    .languages__item:hover {
+        width: 29px;
+        height: 24px;
+        background-color: #EDEDF7;
+        border-radius: 8px;
+        line-height: 24px;
+        text-align: center;
+        color: #B3B3BA;
+    }
+
+    .languages__item_active:hover {
+        background-color: #F0145A;
+        color: #FFFFFF;
+    }
+
+    .dot-separator {
+        margin: 0 10px;
+    }
+
+    .header-address {
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .phone-number {
+        color: #FFFFFF;
+    }
+
+    .facebook-header:hover {
+        fill: #24A3FF;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+    
+    .main-top {
+        padding-top: 50px;
+        background: url('../images/Symbol-Long-leg.svg'), url('../images/Frame.svg') ,linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+        background-repeat: no-repeat;
+        background-position: calc(50% + 11px) 300px, center 178px, 0 0;
+    }
+
+    .main-title {
+        padding: 243px 0 0 0;
+    }
+
+    .btn-arrow-down-div {
+        margin-top: 152px;
+    }
+
+    .main-middle {
+        padding-top: 80px;
+    }
+
+    .section-of-carousel {
+        display: none !important;
+    }
+
+    .experience {
+        display: flex;
+        margin-left: 60px;
+        padding-right: 173px;
+    }
+
+    .experience__items {
+        padding: 0 0 0 100px;
+        margin: 0;
+        width: 567px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .experience__items-title {
+        font-size: 42px;
+        font-weight: 700;
+        color: #B3B3BA;
+        text-align: right;
+        border-right: 4px solid #FFFFFF;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        line-height: 42px;
+    }
+
+    .experience__items-title:last-child {
+        padding-bottom: 0;
+    }
+
+    .experience__items-title:hover {
+        background: linear-gradient(rgba(239, 128, 128, 1), rgba(240, 20, 90, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .experience__items-title_active {
+        /* border-right: 4px solid #F0145A; */
+        background: linear-gradient(rgba(239, 128, 128, 1), rgba(240, 20, 90, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+    }
+
+    .experience__items-title_active::after {
+        content: url('../images/separator-red.svg');
+        position: absolute;
+        top: 0;
+        right: -4px;
+    }
+
+    .experience_description {
+        /* max-width: 640px; */
+        /* margin-right: 173px; */
+        padding-left: 40px;
+        padding-top: 51px;
+        padding-bottom: 45px;
+    }
+
+    .experience_description-title {
+        margin: 0 0 20px 0;
+        padding: 0;
+        font-size: 32px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+
+    .experience_description-text {
+        margin: 0;
+        padding: 0;
+        font-size: 21px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+}

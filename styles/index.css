@@ -81,6 +81,10 @@ body {
     border: none;
 }
 
+.header-desktop {
+    display: none;
+}
+
 .main-title {
     max-width: 530px;
     font-size: 38px;
@@ -124,6 +128,10 @@ body {
 
 .section-of-carousel {
     margin-bottom: 45px;
+}
+
+.experience {
+    display: none;
 }
 
 .main-middle__item {
