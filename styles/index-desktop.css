@@ -99,6 +99,7 @@
         display: flex;
         margin-left: 60px;
         padding-right: 173px;
+        margin-bottom: 80px;
     }
 
     .experience__items {
@@ -169,5 +170,94 @@
         font-size: 21px;
         font-weight: 400;
         color: #FFFFFF;
+    }
+
+    .link-services {
+        margin: 0 0 3px 60px;
+    }
+
+    .what-we-can-do {
+        margin: 0 60px;
+        padding-bottom: 22px;
+    }
+
+    .what-we-can-do__title {
+        font-size: 42px;
+        margin: 0 0 68px 0;
+    }
+
+    .what-we-can-do__skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .what-we-can-do__grid-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 58px;
+        max-width: 413px;
+    }
+
+    .what-we-can-do__icon {
+        width: 92px;
+        height: 92px;
+        margin-bottom: 20px;
+    }
+
+    .what-we-can-do__subtitle {
+        padding: 0;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .what-we-can-do__description {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .second-bottom-div{
+        margin: 0 40px 40px 40px;
+    }
+
+    .managing-partner {
+        display: none;
+    }
+    
+    .team {
+        display: flex;
+        padding: 0;
+        margin: 0 60px 20px 60px;
+    }
+
+    .team__image-desktop {
+        display: block !important;
+        width: 413px;
+        max-height: 500px;
+        min-height: 500px;
+    }
+    
+    .team__description {
+        margin: 0 107px 0 40px;
+        padding-top: 40px;
+    }
+
+    .team__title {
+        font-size: 42px;
+        margin: 0 0 20px 0;
+    }
+
+    .managing-partner-desktop {
+        display: block;
+    }
+
+    .managing-partner__name {
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .managing-partner__position {
+        line-height: 22px;
     }
 }

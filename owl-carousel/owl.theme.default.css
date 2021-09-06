@@ -50,4 +50,8 @@
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #24A3FF; 
-      opacity: 1; }
+      opacity: 0.6; }
+      .owl-theme .owl-dots .owl-dot.active span {
+        background: #24A3FF; 
+        opacity: 1; }
+      
