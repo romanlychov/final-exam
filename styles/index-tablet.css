@@ -1,3 +1,6 @@
 @media screen and (min-width: 768px) {
 
+    .trust-us__partners {
+        grid-template-columns: repeat(3, 33.33%);
+    }
 }

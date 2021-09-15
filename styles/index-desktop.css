@@ -1,6 +1,5 @@
 @media screen and (min-width: 1290px) {
     :root {
-        --trust-us-width: 25%;
         --trust-us-height: 120px;
     }
 
@@ -339,6 +338,10 @@
     .successful-cases__subtitle {
         font-size: 24px;
         margin: 0 0 20px 0;
+    }
+
+    .trust-us__partners {
+        grid-template-columns: repeat(4, 25%);
     }
 
     .we-have-something-to-tell {
