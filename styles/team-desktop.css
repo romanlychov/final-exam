@@ -1,0 +1,233 @@
+@media screen and (min-width: 1290px) {
+
+    .topbar {
+        display: none;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .header-desktop {
+        margin: 50px 60px 80px 60px;
+        display: flex;
+        justify-content: space-between;
+        height: 67px;
+    }
+
+    .logo-and-text-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .team-logo-desktop {
+        font-size: 38px;
+        font-weight: 400;
+        color: #323264;
+        margin: 0 0 0 26px;
+        position: relative;
+    }
+
+    .team-logo-desktop::before {
+        content: url('../images/slash-48px.svg');
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+    
+    .team-logo-desktop::after {
+        content: url('../images/symbol-p-48px.svg');
+        position: absolute;
+        top: 0;
+        right: -43px;
+    }
+
+    .lang-and-contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    .languages__item {
+        color: #B3B3BA;
+    }
+
+    .languages__item:hover {
+        width: 29px;
+        height: 24px;
+        background-color: #EDEDF7;
+        border-radius: 8px;
+        line-height: 24px;
+        text-align: center;
+        color: #B3B3BA;
+    }
+
+    .languages__item_active {
+        color: #FFFFFF;
+    }
+
+    .languages__item_active:hover {
+        background-color: #F0145A;
+        color: #FFFFFF;
+    }
+
+    .dot-separator {
+        margin: 0 10px;
+    }
+
+    .header-address {
+        color: #B3B3BA;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .phone-number {
+        color: #B3B3BA;
+    }
+
+    .facebook-header:hover {
+        fill: #24A3FF;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #24A3FF;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+    
+    .link:hover {
+        color: #F0145A;
+    }
+
+    .active-link {
+        color: #F0145A;
+        border-bottom: 2px solid #F0145A;
+    }
+
+    .main {
+        margin: 0 60px 60px 60px;
+    }
+
+    .main-title {
+        font-size: 42px;
+        margin-bottom: 80px;
+        max-width: 864px;
+    }
+
+    .employees {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+    }
+
+    .employees-item {
+        flex-direction: column;
+    }
+
+    .employees-item-text-and-btn {
+        margin: 0;
+        align-self: flex-start;
+        width: 100%;
+        max-width: 413px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .team-img {
+        width: 100%;
+        max-width: 413px;
+        margin-bottom: 20px;
+    }
+
+    .team-position {
+        margin: 0;
+    }
+
+    .desktop-none {
+        display: none;
+    }
+
+    .team-position-DT {
+        display: block;
+    }
+
+    .vladyslav-melnik {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .yuliya-gudymenko {
+        order: 10;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+    }
+
+    .footer-container {
+        display: flex;
+        margin: 0 60px;
+        padding-top: 32px;
+        justify-content: space-between;
+    }
+
+    .footer__contacts-wrap {
+        display: grid;
+        grid-template-columns: 38px 26px 162px 26px 154px 50px;
+        width: 400px;
+        align-items: center;
+    }
+
+    .footer__address {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0;
+    }
+
+    .footer__look-at-the-map {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        margin: 0;
+        justify-self: self-start;
+    }
+
+    .footer__look-at-the-map:hover {
+        color: #F0145A;
+    }
+
+    .footer__dot-separator {
+        display: block;
+    }
+
+    .footer__facebook-link {
+        margin: 0;
+    }
+
+    .facebook-footer:hover {
+        fill: #F0145A;
+    }
+
+    .footer__phone-number {
+        margin: 0;
+    }
+
+    .footer__email {
+        margin: 0;
+    }
+
+    .footer__email:hover {
+        color: #F0145A;
+    }
+
+    .for-margin-top {
+        margin-top: 22px;
+    }
+
+}

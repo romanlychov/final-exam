@@ -122,6 +122,7 @@ body {
     padding: 15px 0;
     border-bottom: solid 1px #FFFFFF;
     font-size: 24px;
+    font-weight: 500;
     line-height: 28px;
 }
 
@@ -481,6 +482,16 @@ body {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 40px;
+}
+
+.btn-more-publications:hover {
+    background-color: #0085FF;
+    box-shadow: 0px 0px 30px rgba(36, 163, 255, 0.5);
+}
+
+.btn-more-publications:active {
+    background-color: #006CCF;
+    box-shadow: none;
 }
 
 .footer {
