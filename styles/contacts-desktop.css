@@ -1,0 +1,211 @@
+@media screen and (min-width: 1290px) {
+
+    .topbar {
+        display: none;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .header-desktop {
+        margin: 50px 60px 80px 60px;
+        display: flex;
+        justify-content: space-between;
+        height: 67px;
+    }
+
+    .logo-and-text-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .team-logo-desktop {
+        font-size: 38px;
+        font-weight: 400;
+        color: #323264;
+        margin: 0 0 0 26px;
+        position: relative;
+    }
+
+    .team-logo-desktop::before {
+        content: url('../images/slash-48px.svg');
+        position: absolute;
+        top: 0;
+        left: -20px;
+    }
+    
+    .team-logo-desktop::after {
+        content: url('../images/symbol-p-48px.svg');
+        position: absolute;
+        top: 0;
+        right: -43px;
+    }
+
+    .lang-and-contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    .languages__item {
+        color: #B3B3BA;
+    }
+
+    .languages__item:hover {
+        width: 29px;
+        height: 24px;
+        background-color: #EDEDF7;
+        border-radius: 8px;
+        line-height: 24px;
+        text-align: center;
+        color: #B3B3BA;
+    }
+
+    .languages__item_active {
+        color: #FFFFFF;
+    }
+
+    .languages__item_active:hover {
+        background-color: #F0145A;
+        color: #FFFFFF;
+    }
+
+    .dot-separator {
+        margin: 0 10px;
+    }
+
+    .header-address {
+        color: #B3B3BA;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .phone-number {
+        color: #B3B3BA;
+    }
+
+    .facebook-header:hover {
+        fill: #24A3FF;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #24A3FF;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+    
+    .link:hover {
+        color: #F0145A;
+    }
+
+    .active-link {
+        color: #F0145A;
+        border-bottom: 2px solid #F0145A;
+    }
+
+    .main {
+        margin: 0 173px 80px 173px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        margin: 0;
+        width: 414px;
+        align-self: center;
+    }
+
+    .contacts__email:hover {
+        color: #F0145A;
+    }
+
+    .contacts__facebook:hover {
+        fill: #F0145A;
+    }
+
+    .contact-form {
+        border-radius: 12px;
+        width: 527px;
+    }
+
+    .contact-form__title {
+        font-size: 32px;
+        font-weight: 700;
+        background: linear-gradient(rgba(240, 20, 90, 1), rgba(239, 128, 128, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+    }
+
+    .footer-container {
+        display: flex;
+        margin: 0 60px;
+        padding-top: 32px;
+        justify-content: space-between;
+    }
+
+    .footer__contacts-wrap {
+        display: grid;
+        grid-template-columns: 38px 26px 162px 26px 154px 50px;
+        width: 400px;
+        align-items: center;
+    }
+
+    .footer__address {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0;
+    }
+
+    .footer__look-at-the-map {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        margin: 0;
+        justify-self: self-start;
+    }
+
+    .footer__look-at-the-map:hover {
+        color: #F0145A;
+    }
+
+    .footer__dot-separator {
+        display: block;
+    }
+
+    .footer__facebook-link {
+        margin: 0;
+    }
+
+    .facebook-footer:hover {
+        fill: #F0145A;
+    }
+
+    .footer__phone-number {
+        margin: 0;
+    }
+
+    .footer__email {
+        margin: 0;
+    }
+
+    .footer__email:hover {
+        color: #F0145A;
+    }
+
+    .for-margin-top {
+        margin-top: 22px;
+    }
+
+}
